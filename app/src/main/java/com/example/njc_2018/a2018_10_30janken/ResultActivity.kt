@@ -41,7 +41,7 @@ class ResultActivity : AppCompatActivity() {
         when(comHand) {
             gu -> comHandImage.setImageResource(R.drawable.com_gu)
             choki -> comHandImage.setImageResource(R.drawable.com_choki)
-            pa -> comHandImage.setImageResource(R.drawable.pa)
+            pa -> comHandImage.setImageResource(R.drawable.com_pa)
         }
 
         //勝敗を判定する
