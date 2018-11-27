@@ -1,7 +1,7 @@
 package com.example.njc_2018.a2018_10_30janken
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_result.*
 
 class ResultActivity : AppCompatActivity() {
@@ -39,7 +39,7 @@ class ResultActivity : AppCompatActivity() {
         when(comHand) {
             gu -> comHandImage.setImageResource(R.drawable.com_gu)
             choki -> comHandImage.setImageResource(R.drawable.com_choki)
-            pa -> comHandImage.setImageResource(R.drawable.pa)
+            pa -> comHandImage.setImageResource(R.drawable.com_pa)
         }
 
         //勝敗を判定する
